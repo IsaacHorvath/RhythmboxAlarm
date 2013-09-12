@@ -1,8 +1,4 @@
 RhythmboxAlarm
 =============
 
-Allows the user to set a time via commandline argument. Opens rhythmbox once that time is reached. The process will continue running until that time.
-
-Usage: ./RhythmboxAlarm <time>
-
-E.g. ./RhythmboxAlarm 15:45
+A simple little GTK program that allows the user to set 8 different alarms for various times. Each of these, when they go off, will start Rhythmbox playing if it is open.

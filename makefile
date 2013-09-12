@@ -1,0 +1,2 @@
+all:
+	gcc `pkg-config --cflags --libs gtk+-3.0` -o RhythmboxAlarm RhythmboxAlarm.c
